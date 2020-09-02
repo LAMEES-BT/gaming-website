@@ -1,0 +1,366 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+*{
+    font-family: arial;
+}
+div.maincontent{
+    height: 700px;
+    background-image: url('image/slide-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+joinnavbar{
+    background-color: black;
+}
+div.navbar{
+   color: white;
+   font-family: arial;
+   padding: -30px;
+}
+div.navbar a.join{
+    padding: 15px; 
+    border-radius: 8px;
+    border:2px solid white;
+    background-color: transparent;
+    color: white;
+}
+div.details{
+    text-align: center;
+    padding: 50px;
+    margin: 100px;
+    color: white;
+}
+DIV.details button{
+    color: aqua;
+     padding:15px;
+    margin: 25px;
+    border-radius: 8px;
+    border: 2px solid  white; 
+    background-color: white;
+}
+div.plays{
+    display: flex;
+    width: 60%;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    
+}
+div.play div.img{
+   width: 100px; 
+   height: 100px; 
+   border-radius: 100px; 
+   background-image: url(image/game-img-3.jpg);
+   background-position: center;
+   justify-content: space-between;
+    margin-top:50px;
+}
+div.play2 div.img{
+   width: 100px; 
+   height: 100px; 
+   border-radius: 100px; 
+   background-image: url(image/game-img-1.jpg);
+   background-position: center;
+   justify-content: space-between;
+    margin-top:50px;
+}
+div.play3 div.img{
+   width: 100px; 
+   height: 100px; 
+   border-radius: 100px; 
+   background-image: url(image/game-img-4.jpg);
+   background-position: center;
+   justify-content: space-between;
+    margin-top:50px;
+}
+div.play4 div.img{
+   width: 100px; 
+   height: 100px; 
+   border-radius: 100px; 
+   background-image: url(image/game-slide-img-1.jpg);
+   background-position: center;
+   justify-content: space-between;
+    margin-top:50px;
+}
+div.maingame button{   
+    
+    color: aqua;
+     padding:15px;
+    margin: 25px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: white;
+}
+
+div.maingame{
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  width: 700px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+    padding: 50px;
+    line-height: 23px;
+}
+
+div.maingame img{
+border-radius: 10px;
+ display: flex;   
+ margin-right:  -100px;    
+}
+div.posts{
+    display: flex;
+    width:70% ;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+div.post{
+  margin: 25px;    
+}
+div.post div.img{
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+}
+div.post div.img{
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+}
+div.post div.img{
+border-radius: 8px;
+    height: 50px;
+}
+div.text{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+div.post {
+   border-radius: 8px; 
+   background-color:black;
+   color: white;
+  
+    
+}
+div.post p{
+   font-size: 15px; 
+  
+    
+}
+div.post h5{
+display: inline-block;
+      color: white;
+    
+}
+div.post h3, div.post p, div.post h5{
+    padding-right:10px;; 
+    padding-left: 10px;
+    
+    
+}
+div.post img{
+   border-radius: 8px;
+    width: 300px;
+}
+div.testis{
+    display: flex;
+    width: 60%;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    margin:100px;
+}
+div.testi {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+   margin: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+div.testi1 div.img{
+    text-align: center;
+    align-items: center;
+    width: 150px; 
+   height: 150px; 
+   border-radius:150px; 
+   background-position: center;
+   justify-content:center;
+   padding: 20px;
+    margin-top: -100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+div.testi2 div.img{
+     text-align: center;
+    align-items: center;
+   width: 150px; 
+   height: 150px; 
+   border-radius: 150px;
+   background-position: center;
+   justify-content:center;
+   padding: 20px;
+    margin-top: -100px ;
+    background-color: white;
+        border: 1px solid black;
+}
+ div.img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+ div.img{
+  text-align: center;
+    justify-content: center;
+    align-items: center;
+     margin: auto;
+}
+div.aes{
+  text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+}
+div.testi teti1, testi testi2{
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+div.prising h2{
+    text-align: center;
+    
+    
+}
+div.prices{
+    display:flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+div.price{
+    width: 30%;
+    background-color:hotpink;
+    color: white;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+div.price button{
+    color: aqua;
+     padding:15px;
+    margin: 25px;
+    border-radius: 8px;
+    background-color:transparent;
+    color: white;
+    border: 1px solid white; 
+}
+.atr{
+     background-color:cornflowerblue;
+    padding: 15px;
+}
+.art h3{
+    margin: 0px;
+}     
+
+
+
+div.joinform{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+        border: 1px  solid black;
+    border-radius: 10px;
+}
+div.joinform .form {
+    
+    width: 65%;
+ 
+    
+}
+div.joinform .image{
+     background-image: url('image/fantasy1.jpg');
+    background-position: top;
+    background-size: cover;
+    width: 35%;
+    height: 400px;
+    padding: 30px;
+    border-top-left-radius:  10px;
+    border-bottom-left-radius:  10px;
+    margin-right:10px;
+    
+}
+form input, form button{
+    padding: 15px;
+    font-size: 16px;
+    margin: 10px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    display: block;
+}
+form{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}    
+form button{
+    background-color:pink;
+    color:dodgerblue;
+}   
+    
+.bnm{
+    background-color: palevioletred;
+    color: white;
+   
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
